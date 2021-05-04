@@ -1,0 +1,16 @@
+{
+  "name": "Site blocker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "author": "Henry Heikkinen <rce@rce.fi>",
+  "description": "Block sites :)",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
